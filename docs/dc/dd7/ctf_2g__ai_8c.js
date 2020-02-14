@@ -1,0 +1,27 @@
+var ctf_2g__ai_8c =
+[
+    [ "ai_charge", "dc/dd7/ctf_2g__ai_8c.html#ae25ed4b1b73336ce2f48db436eb724bc", null ],
+    [ "ai_checkattack", "dc/dd7/ctf_2g__ai_8c.html#a0a509968b3a4e30460be5abcde294d64", null ],
+    [ "ai_move", "dc/dd7/ctf_2g__ai_8c.html#a55c80e28449af96a25a020ae3e7506b5", null ],
+    [ "ai_run", "dc/dd7/ctf_2g__ai_8c.html#aceb8f1ac8e74bbe9ef1c9c24f8b7b829", null ],
+    [ "ai_run_melee", "dc/dd7/ctf_2g__ai_8c.html#afdeb7cf7943c6bb22a5522b627671bc9", null ],
+    [ "ai_run_missile", "dc/dd7/ctf_2g__ai_8c.html#a85842fcb4fe08ed7a68042f2eb1862b4", null ],
+    [ "ai_run_slide", "dc/dd7/ctf_2g__ai_8c.html#a024cd2be4ed800d32c67e109c3ef99bd", null ],
+    [ "AI_SetSightClient", "dc/dd7/ctf_2g__ai_8c.html#af3e4c4855f95d93354d9027166594db8", null ],
+    [ "ai_stand", "dc/dd7/ctf_2g__ai_8c.html#a040ea0a98bf0a451c48df7fc17ea0a9f", null ],
+    [ "ai_turn", "dc/dd7/ctf_2g__ai_8c.html#a1cd321e06c612bfaebb398a7c577d5fc", null ],
+    [ "ai_walk", "dc/dd7/ctf_2g__ai_8c.html#a4a7d541641c286f593b09e884f4184ed", null ],
+    [ "FacingIdeal", "dc/dd7/ctf_2g__ai_8c.html#ae6f68c483012943c8c6676030c22ee67", null ],
+    [ "FindTarget", "dc/dd7/ctf_2g__ai_8c.html#a286f85eeb1e459f42f25c9c53c4a4df6", null ],
+    [ "FoundTarget", "dc/dd7/ctf_2g__ai_8c.html#ab35e7d2883b6c70c3d19b6aaea21e2d1", null ],
+    [ "HuntTarget", "dc/dd7/ctf_2g__ai_8c.html#acbf785cb7b10bc77c237de5bf1a82180", null ],
+    [ "infront", "dc/dd7/ctf_2g__ai_8c.html#a91d7a4b1edda963e9aaef9a027dd817a", null ],
+    [ "M_CheckAttack", "dc/dd7/ctf_2g__ai_8c.html#aecdf47c460a9caa423c9503c80af30b6", null ],
+    [ "range", "dc/dd7/ctf_2g__ai_8c.html#a758a0c895a3c34ef215e76721d246bf4", null ],
+    [ "visible", "dc/dd7/ctf_2g__ai_8c.html#a4464e8d7b0ca77ab0782fa80ac8493fa", null ],
+    [ "enemy_infront", "dc/dd7/ctf_2g__ai_8c.html#a6db2868d848a29cc20cd26b700028342", null ],
+    [ "enemy_range", "dc/dd7/ctf_2g__ai_8c.html#a44e9ee6073bdc560c6885351413eb7a4", null ],
+    [ "enemy_vis", "dc/dd7/ctf_2g__ai_8c.html#a2e878913e15506cb441da69c3dc36dc9", null ],
+    [ "enemy_yaw", "dc/dd7/ctf_2g__ai_8c.html#afb97bb08b615d897f30018bc0cef17ec", null ],
+    [ "maxclients", "dc/dd7/ctf_2g__ai_8c.html#aa51370b072e36e39966a9698a258d36e", null ]
+];

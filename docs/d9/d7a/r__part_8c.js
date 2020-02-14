@@ -1,0 +1,28 @@
+var r__part_8c =
+[
+    [ "partparms_t", "de/d5e/structpartparms__t.html", "de/d5e/structpartparms__t" ],
+    [ "PARTICLE_33", "d9/d7a/r__part_8c.html#aa85f515b802daa86943f36d995c0b999", null ],
+    [ "PARTICLE_66", "d9/d7a/r__part_8c.html#adc4f744c3c404feb45a23d3f8ccffde6", null ],
+    [ "PARTICLE_OPAQUE", "d9/d7a/r__part_8c.html#a2491cf4d5e976a8a781af28e8ed847f5", null ],
+    [ "BlendParticle100", "d9/d7a/r__part_8c.html#a238240f7c1812410bb3377f30891fa55", null ],
+    [ "BlendParticle33", "d9/d7a/r__part_8c.html#a1a22f98dd7d938afa800ee052128e5d1", null ],
+    [ "BlendParticle66", "d9/d7a/r__part_8c.html#ae20453512920b39e16265b7c6b733da7", null ],
+    [ "R_DrawParticle", "d9/d7a/r__part_8c.html#aa43da16cfa5b8790ac45143d31a954b8", null ],
+    [ "R_DrawParticles", "d9/d7a/r__part_8c.html#a269fd33c76fb111560575c221c410954", null ],
+    [ "blendparticle", "d9/d7a/r__part_8c.html#ad04b73efdb5c68089195ed8371c78e8f", null ],
+    [ "count", "d9/d7a/r__part_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf", null ],
+    [ "i", "d9/d7a/r__part_8c.html#acb559820d9ca11295b4500f179ef6392", null ],
+    [ "izi", "d9/d7a/r__part_8c.html#a6e1fd014bfd5406d81f811703aae86a9", null ],
+    [ "local", "d9/d7a/r__part_8c.html#a2a955673b1fc5822f245f54605c36d51", null ],
+    [ "partparms", "d9/d7a/r__part_8c.html#aa95445679fbd4e7206e50813b174b2ba", null ],
+    [ "pdest", "d9/d7a/r__part_8c.html#a1de2d990e8ec5d9f9804370319fa8440", null ],
+    [ "pix", "d9/d7a/r__part_8c.html#a7b152453fa2b75d63b1ee80ffc2a24d9", null ],
+    [ "pz", "d9/d7a/r__part_8c.html#acfb31fa6ca009642c7a4bc786da60645", null ],
+    [ "r_ppn", "d9/d7a/r__part_8c.html#a7685341ac2b7ae983625612736456428", null ],
+    [ "r_pright", "d9/d7a/r__part_8c.html#ae78083fcdc117415920973543befa93a", null ],
+    [ "r_pup", "d9/d7a/r__part_8c.html#a8691ad4354c4cf63885c2513786b3364", null ],
+    [ "transformed", "d9/d7a/r__part_8c.html#a57b16108c2bed6b3866ce24fb386b459", null ],
+    [ "u", "d9/d7a/r__part_8c.html#a5874b4c2ec2e28321eea4e4871d08222", null ],
+    [ "v", "d9/d7a/r__part_8c.html#ac8859e8c1ce357c4c8b37bbb1936ba1c", null ],
+    [ "zi", "d9/d7a/r__part_8c.html#a0f8e8eceb70ae73da2c1ecf3a2ac6cc1", null ]
+];

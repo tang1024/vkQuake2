@@ -1,0 +1,26 @@
+var structclient__s =
+[
+    [ "challenge", "d8/dff/structclient__s.html#af2775d6d7a2aa140890e74074d71a533", null ],
+    [ "commandMsec", "d8/dff/structclient__s.html#a867bceb7029dcbaf78d5be6b99cbe851", null ],
+    [ "datagram", "d8/dff/structclient__s.html#a12e9c4fdb228614f1e51b537e207383e", null ],
+    [ "datagram_buf", "d8/dff/structclient__s.html#ac7778b9667a6f490cc39b0051b4b0831", null ],
+    [ "download", "d8/dff/structclient__s.html#a473c68e3bb3b82647e9bfc3615c6e0b4", null ],
+    [ "downloadcount", "d8/dff/structclient__s.html#a25abe445854fab736aaf232a9759391e", null ],
+    [ "downloadsize", "d8/dff/structclient__s.html#a968e4b261fdc2c124621a9f9de91a09e", null ],
+    [ "edict", "d8/dff/structclient__s.html#a8f213d0364b7b1ee31cf123adff1971c", null ],
+    [ "frame_latency", "d8/dff/structclient__s.html#ae84802b3782607d86923fad1227f7526", null ],
+    [ "frames", "d8/dff/structclient__s.html#a510efd5d0abb663613ae97b86c903ccc", null ],
+    [ "lastcmd", "d8/dff/structclient__s.html#a8a064a02c02dbbbc15e0e6ad8e542585", null ],
+    [ "lastconnect", "d8/dff/structclient__s.html#ab290ec1c9bc54c08e60cf55e9f9016f8", null ],
+    [ "lastframe", "d8/dff/structclient__s.html#a31b6b9f65d54e0c8491f51ed8388451f", null ],
+    [ "lastmessage", "d8/dff/structclient__s.html#a55357d4b104162b58e51912cc240af9a", null ],
+    [ "message_size", "d8/dff/structclient__s.html#a520046db6b9c7cfa990d3cf0ebe84b52", null ],
+    [ "messagelevel", "d8/dff/structclient__s.html#a7ccba11c895ffd1f605e29512906ccd4", null ],
+    [ "name", "d8/dff/structclient__s.html#acddb099e438c6902fcb71894a0bd1d61", null ],
+    [ "netchan", "d8/dff/structclient__s.html#a6dac1acddd0a5749f1e66fe59e542ade", null ],
+    [ "ping", "d8/dff/structclient__s.html#a90ad4542def005d972561ca34f5994b1", null ],
+    [ "rate", "d8/dff/structclient__s.html#abc24e4fd8a560ac66379ff6704e7591e", null ],
+    [ "state", "d8/dff/structclient__s.html#aa3abfe7054be6e34d708c28c2e0b3d7f", null ],
+    [ "surpressCount", "d8/dff/structclient__s.html#aef950ceb6527720ba70f1f284d93a4ca", null ],
+    [ "userinfo", "d8/dff/structclient__s.html#a8a8cc9e2fab9730c092047434e73eff5", null ]
+];

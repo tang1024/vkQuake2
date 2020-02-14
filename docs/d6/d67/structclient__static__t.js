@@ -1,0 +1,25 @@
+var structclient__static__t =
+[
+    [ "challenge", "d6/d67/structclient__static__t.html#a5e4867364069ff04398a70a7a702d4cd", null ],
+    [ "connect_time", "d6/d67/structclient__static__t.html#aa819371ef2683f208c84a456318bffc8", null ],
+    [ "demofile", "d6/d67/structclient__static__t.html#afd79be6c5b420ce9905948a0cc0c6480", null ],
+    [ "demorecording", "d6/d67/structclient__static__t.html#ada7a3b69a68f9e33d98f67da4e751d70", null ],
+    [ "demowaiting", "d6/d67/structclient__static__t.html#ac060612d94205c8af574201bd047f4a9", null ],
+    [ "disable_screen", "d6/d67/structclient__static__t.html#ab5626c334bb2fd9e0b2f0814bcd2e0ce", null ],
+    [ "disable_servercount", "d6/d67/structclient__static__t.html#af94221fe16690655d4615edc57a1d0b8", null ],
+    [ "download", "d6/d67/structclient__static__t.html#ab44f5f658e20ebd9224397b98c182c3b", null ],
+    [ "downloadname", "d6/d67/structclient__static__t.html#ac2237869f27f2d23dc0ad7ed0a0e2096", null ],
+    [ "downloadnumber", "d6/d67/structclient__static__t.html#a120d2bbeebbef80f00ab8468a8c35d44", null ],
+    [ "downloadpercent", "d6/d67/structclient__static__t.html#a5c6d9bc87a90c3988a4991c9df148829", null ],
+    [ "downloadtempname", "d6/d67/structclient__static__t.html#a2606c42c56e294f9405b455f67ab571e", null ],
+    [ "downloadtype", "d6/d67/structclient__static__t.html#ae8a2d704677ab257bc436a0608cdae16", null ],
+    [ "framecount", "d6/d67/structclient__static__t.html#a214aad0c0a125e77ef8786b070ea57fa", null ],
+    [ "frametime", "d6/d67/structclient__static__t.html#a01879f09b764a076d8c88627edd09c3f", null ],
+    [ "key_dest", "d6/d67/structclient__static__t.html#ae2be106aa4992dd66688f274c57e18ea", null ],
+    [ "netchan", "d6/d67/structclient__static__t.html#a7a72c447fe48a1e76ba751e6c42f05b4", null ],
+    [ "quakePort", "d6/d67/structclient__static__t.html#ad1a600aae7f76dd61475d724a42f6cb6", null ],
+    [ "realtime", "d6/d67/structclient__static__t.html#aa8635b41486882ad5d904d80de9fdf72", null ],
+    [ "servername", "d6/d67/structclient__static__t.html#a10159b0e0c942a2f6f60c4ad644f0b01", null ],
+    [ "serverProtocol", "d6/d67/structclient__static__t.html#a46dac91fbf9520a71a6160062d3e2745", null ],
+    [ "state", "d6/d67/structclient__static__t.html#a39f6ce8e0ecb3db97ca7cd9de98830d0", null ]
+];

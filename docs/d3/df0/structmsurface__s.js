@@ -1,0 +1,28 @@
+var structmsurface__s =
+[
+    [ "cached_light", "d3/df0/structmsurface__s.html#a7bc2bdba8dd1dec426d84b4cd369302a", null ],
+    [ "cachespots", "d3/df0/structmsurface__s.html#ac497669798c5d13e1de6a9ca39f8aa91", null ],
+    [ "dlight_s", "d3/df0/structmsurface__s.html#aa0d5eb92a779e3f50ce78d3d2b6efdb2", null ],
+    [ "dlight_t", "d3/df0/structmsurface__s.html#a65579ab4f9fd2167909362c9ca37e847", null ],
+    [ "dlightbits", "d3/df0/structmsurface__s.html#a87aa1251283116d3e9f5c7293240c5fb", null ],
+    [ "dlightframe", "d3/df0/structmsurface__s.html#a5ae2ac95dd0043f20f7377b1c14ed22c", null ],
+    [ "extents", "d3/df0/structmsurface__s.html#a1af1d358381f1db4c45ce28d0fd5f997", null ],
+    [ "firstedge", "d3/df0/structmsurface__s.html#a4fbc264a23cbc055a4d8b2d752a85028", null ],
+    [ "flags", "d3/df0/structmsurface__s.html#ac32aa657d2ea8864edebfec0c113843c", null ],
+    [ "light_s", "d3/df0/structmsurface__s.html#a31268fc500304dcbf286242e2c605981", null ],
+    [ "light_t", "d3/df0/structmsurface__s.html#ad560593e2c2679b68b6135d68918742b", null ],
+    [ "lightmapchain", "d3/df0/structmsurface__s.html#a44b54634f9650e1ba330b1032395355a", null ],
+    [ "lightmaptexturenum", "d3/df0/structmsurface__s.html#ab78aaab59be796a007d696a2c1253bd3", null ],
+    [ "nextalphasurface", "d3/df0/structmsurface__s.html#aa1d618dd468e3d8dfcad01cfb79db6da", null ],
+    [ "numedges", "d3/df0/structmsurface__s.html#ac7d987a863fccd09452139cddde2d498", null ],
+    [ "plane", "d3/df0/structmsurface__s.html#a0dc8e98bba0feaf14a8af4516312329c", null ],
+    [ "plane", "d3/df0/structmsurface__s.html#a1450d3e88a12249419e9369d94f44179", null ],
+    [ "polys", "d3/df0/structmsurface__s.html#ab3bdca74fc73d88ba8b929e04169f49e", null ],
+    [ "polys", "d3/df0/structmsurface__s.html#a5d3421f2065aaae5f42c161570c1ba20", null ],
+    [ "samples", "d3/df0/structmsurface__s.html#aeed1d7c7e45c3d36be4e0fdbd690fd15", null ],
+    [ "styles", "d3/df0/structmsurface__s.html#a81f1b1c66c57ff98407c941e445271b7", null ],
+    [ "texinfo", "d3/df0/structmsurface__s.html#a0531eaa9c3641e1c6b5121e8bfeb58c7", null ],
+    [ "texturechain", "d3/df0/structmsurface__s.html#a41442720e7961c4131094e3a9461ab84", null ],
+    [ "texturemins", "d3/df0/structmsurface__s.html#ab35131085c5cbbf41b0cd24e13283256", null ],
+    [ "visframe", "d3/df0/structmsurface__s.html#a10f9edc0f07dbf460af9eb11f2904228", null ]
+];
