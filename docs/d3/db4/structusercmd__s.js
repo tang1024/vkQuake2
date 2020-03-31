@@ -1,6 +1,6 @@
 var structusercmd__s =
 [
-    [ "angles", "d3/db4/structusercmd__s.html#a682d88ef1571d7de0193e36dc7e1e0cb", null ],
+    [ "angles", "d3/db4/structusercmd__s.html#a79bbd49ce3c365c995260f6295235443", null ],
     [ "buttons", "d3/db4/structusercmd__s.html#ae1edf26d38352168bfab992a9852bbc0", null ],
     [ "forwardmove", "d3/db4/structusercmd__s.html#ac4793e856faa6bb98453bbaeebeb4928", null ],
     [ "impulse", "d3/db4/structusercmd__s.html#a68af4d1668e79d7b7c9ce3bb013cded6", null ],

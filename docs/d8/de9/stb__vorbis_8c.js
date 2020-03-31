@@ -79,9 +79,9 @@ var stb__vorbis_8c =
     [ "uint8", "d8/de9/stb__vorbis_8c.html#adde6aaee8457bee49c2a92621fe22b79", null ],
     [ "vorb", "d8/de9/stb__vorbis_8c.html#ad2a08bf33a1eb072ed9e2aef4f36a827", null ],
     [ "YTYPE", "d8/de9/stb__vorbis_8c.html#ac09448f53783c6802f40f2f56976c4c9", null ],
-    [ "VORBIS_packet_id", "d8/de9/stb__vorbis_8c.html#aaf105ae5beaca1dee30ae54530691fcea80ba889feb2380990384b027bd2905b4", null ],
-    [ "VORBIS_packet_comment", "d8/de9/stb__vorbis_8c.html#aaf105ae5beaca1dee30ae54530691fcea01e28b89a67bc5705d2c44c1221fce8d", null ],
-    [ "VORBIS_packet_setup", "d8/de9/stb__vorbis_8c.html#aaf105ae5beaca1dee30ae54530691fcea20b3079d6deb5a9d07566234f8f0eb1d", null ],
+    [ "VORBIS_packet_id", "d8/de9/stb__vorbis_8c.html#a16af7b253440dadd46a80a4b9fddba4da80ba889feb2380990384b027bd2905b4", null ],
+    [ "VORBIS_packet_comment", "d8/de9/stb__vorbis_8c.html#a16af7b253440dadd46a80a4b9fddba4da01e28b89a67bc5705d2c44c1221fce8d", null ],
+    [ "VORBIS_packet_setup", "d8/de9/stb__vorbis_8c.html#a16af7b253440dadd46a80a4b9fddba4da20b3079d6deb5a9d07566234f8f0eb1d", null ],
     [ "STBVorbisError", "d8/de9/stb__vorbis_8c.html#a2827ae29a055de005d8769ef0e0cd644", [
       [ "VORBIS__no_error", "d8/de9/stb__vorbis_8c.html#a2827ae29a055de005d8769ef0e0cd644a8fb17b5792b1463fe7e6152195d26f19", null ],
       [ "VORBIS_need_more_data", "d8/de9/stb__vorbis_8c.html#a2827ae29a055de005d8769ef0e0cd644a03255ba6dfd62d6530c8f67e8bc04861", null ],

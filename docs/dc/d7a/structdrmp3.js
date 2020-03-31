@@ -8,7 +8,7 @@ var structdrmp3 =
     [ "dataSize", "dc/d7a/structdrmp3.html#ad1d4cb4cb6209977963313a27f34c3bd", null ],
     [ "decoder", "dc/d7a/structdrmp3.html#aff4724123bbdf3b8e3071601c1f73ff7", null ],
     [ "frameInfo", "dc/d7a/structdrmp3.html#aa855f80f6dbc32827875ca95c8ea29bb", null ],
-    [ "memory", "dc/d7a/structdrmp3.html#a4a39338c12d4269cf74c6053a527954c", null ],
+    [ "memory", "dc/d7a/structdrmp3.html#abb89df5ddf19d13b815f45b8e1be6713", null ],
     [ "mp3FrameChannels", "dc/d7a/structdrmp3.html#aec49fe9de2778f11bb2013957fc12029", null ],
     [ "mp3FrameSampleRate", "dc/d7a/structdrmp3.html#ade76fd0c402a551a22c0a06a0b8eb5dc", null ],
     [ "onRead", "dc/d7a/structdrmp3.html#aba375c193b3077addacb4ec3b7907752", null ],

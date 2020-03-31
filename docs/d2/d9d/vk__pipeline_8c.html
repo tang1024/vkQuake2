@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>vq2 doxygen: C:/entry/syn/github/vq2/ref_vk/vk_pipeline.c File Reference</title>
+<title>vkQuake2 doxygen: C:/entry/dev/vq2/src/ref_vk/vk_pipeline.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,8 +30,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">vq2 doxygen
-   &#160;<span id="projectnumber">1.0 alpha</span>
+   <div id="projectname">vkQuake2 doxygen
+   &#160;<span id="projectnumber">1.0 dev</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -177,14 +177,14 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d2/d9d/vk__pipeline_8c_source.html#l00051">51</a> of file <a class="el" href="../../d2/d9d/vk__pipeline_8c_source.html">vk_pipeline.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    VkPipelineShaderStageCreateInfo *ssCreateInfos = (VkPipelineShaderStageCreateInfo *)malloc(shaderCount * <span class="keyword">sizeof</span>(VkPipelineShaderStageCreateInfo));</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; shaderCount; <a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; shaderCount; <a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        ssCreateInfos[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>] = shaders[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>].<a class="code" href="../../de/d3d/structqvkshader__t.html#a84b11728e5de78ea53d5115f17cad905">createInfo</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        ssCreateInfos[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>] = shaders[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>].<a class="code" href="../../de/d3d/structqvkshader__t.html#a84b11728e5de78ea53d5115f17cad905">createInfo</a>;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    VkPipelineInputAssemblyStateCreateInfo iaCreateInfo = {</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        .sType = VK_STRUCTURE_TYPE_PIPELINE_INPUT_ASSEMBLY_STATE_CREATE_INFO,</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        .topology = pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#ad1003ec73ab58e90e3b922544ffeb150">topology</a>,</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        .primitiveRestartEnable = VK_FALSE</div>
@@ -207,7 +207,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    VkPipelineViewportStateCreateInfo vpCreateInfo = {</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        .sType = VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_STATE_CREATE_INFO,</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        .viewportCount = 1,</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        .pViewports = &amp;viewport,</div>
@@ -217,7 +217,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    VkPipelineRasterizationStateCreateInfo rCreateInfo = {</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        .sType = VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO,</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        .depthClampEnable = VK_FALSE,</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        .rasterizerDiscardEnable = VK_FALSE,</div>
@@ -233,19 +233,19 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    VkPipelineMultisampleStateCreateInfo msCreateInfo = {</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        .sType = VK_STRUCTURE_TYPE_PIPELINE_MULTISAMPLE_STATE_CREATE_INFO,</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        .rasterizationSamples = renderpass-&gt;<a class="code" href="../../d5/d04/structqvkrenderpass__t.html#a22b3ab1c0b5f09a46ff435a4f497de17">sampleCount</a>,</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        .sampleShadingEnable = (<a class="code" href="../../d2/dd2/vid__menu_8c.html#a77ed3978d093aec71758739df86e6679">vk_sampleshading</a>-&gt;<a class="code" href="../../d8/d20/structcvar__s.html#a924de486b6519c65a08d4872b4cd15f8">value</a> &gt; 0 &amp;&amp; <a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a34046062c84b263a3380a1d661414d53">features</a>.sampleRateShading) ? VK_TRUE : VK_FALSE,</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        .minSampleShading = (<a class="code" href="../../d2/dd2/vid__menu_8c.html#a77ed3978d093aec71758739df86e6679">vk_sampleshading</a>-&gt;<a class="code" href="../../d8/d20/structcvar__s.html#a924de486b6519c65a08d4872b4cd15f8">value</a> &gt; 0 &amp;&amp; <a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a34046062c84b263a3380a1d661414d53">features</a>.sampleRateShading) ? 1.f : 0.f,</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        .pSampleMask = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        .pSampleMask = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        .alphaToCoverageEnable = VK_FALSE,</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        .alphaToOneEnable = VK_FALSE</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    };</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    VkPipelineDepthStencilStateCreateInfo dCreateInfo = {</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        .sType = VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO,</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        .depthTestEnable = pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#aa0c1b19d8236e3ebb764b3156cf0509f">depthTestEnable</a>,</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        .depthWriteEnable = pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#aa0c1b19d8236e3ebb764b3156cf0509f">depthTestEnable</a> == VK_TRUE ? pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#a23bc043eece29068837f067d0865d1c5">depthWriteEnable</a> : VK_FALSE, <span class="comment">// there should be NO depth writes if depthTestEnable is false but Intel seems to not follow the specs fully...</span></div>
@@ -260,7 +260,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    VkPipelineColorBlendStateCreateInfo cbsCreateInfo = {</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        .sType = VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO,</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        .logicOpEnable = VK_FALSE,</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        .logicOp = VK_LOGIC_OP_COPY,</div>
@@ -275,7 +275,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    VkDynamicState dynamicStates[] = { VK_DYNAMIC_STATE_VIEWPORT, VK_DYNAMIC_STATE_SCISSOR };</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    VkPipelineDynamicStateCreateInfo dsCreateInfo = {</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        .sType = VK_STRUCTURE_TYPE_PIPELINE_DYNAMIC_STATE_CREATE_INFO,</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        .dynamicStateCount = 2,</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        .pDynamicStates = dynamicStates</div>
@@ -283,7 +283,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    VkPipelineLayoutCreateInfo plCreateInfo = {</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        .sType = VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO,</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        .setLayoutCount = descLayoutCount,</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        .pSetLayouts = descriptorLayout,</div>
@@ -291,18 +291,18 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        .pPushConstantRanges = pcRange</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    };</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <a class="code" href="../../df/d33/vk__local_8h.html#af7788fba4e836abe04d09794a3ee09b1">VK_VERIFY</a>(vkCreatePipelineLayout(<a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a8a0e0d26f9c6e56000c4b43ac8609ec3">logical</a>, &amp;plCreateInfo, <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, &amp;pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#ac032505b2b67353dfecc99018d62bf6f">layout</a>));</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <a class="code" href="../../df/d33/vk__local_8h.html#af7788fba4e836abe04d09794a3ee09b1">VK_VERIFY</a>(vkCreatePipelineLayout(<a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a8a0e0d26f9c6e56000c4b43ac8609ec3">logical</a>, &amp;plCreateInfo, <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, &amp;pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#ac032505b2b67353dfecc99018d62bf6f">layout</a>));</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="comment">// create THE pipeline</span></div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    VkGraphicsPipelineCreateInfo pCreateInfo = {</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        .sType = VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_CREATE_INFO,</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        .flags = pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#ad71035924e4321d63cea9a9f6e71501f">flags</a>,</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        .stageCount = shaderCount,</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        .pStages = ssCreateInfos,</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        .pVertexInputState = vertexInputInfo,</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        .pInputAssemblyState = &amp;iaCreateInfo,</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        .pTessellationState = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        .pTessellationState = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        .pViewportState = &amp;vpCreateInfo,</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        .pRasterizationState = &amp;rCreateInfo,</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        .pMultisampleState = &amp;msCreateInfo,</div>
@@ -316,7 +316,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        .basePipelineIndex = -1</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    };</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <a class="code" href="../../df/d33/vk__local_8h.html#af7788fba4e836abe04d09794a3ee09b1">VK_VERIFY</a>(vkCreateGraphicsPipelines(<a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a8a0e0d26f9c6e56000c4b43ac8609ec3">logical</a>, VK_NULL_HANDLE, 1, &amp;pCreateInfo, <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, &amp;pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#add1553c98fe25dc0898a6d91f9a45a43">pl</a>));</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <a class="code" href="../../df/d33/vk__local_8h.html#af7788fba4e836abe04d09794a3ee09b1">VK_VERIFY</a>(vkCreateGraphicsPipelines(<a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a8a0e0d26f9c6e56000c4b43ac8609ec3">logical</a>, VK_NULL_HANDLE, 1, &amp;pCreateInfo, <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, &amp;pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#add1553c98fe25dc0898a6d91f9a45a43">pl</a>));</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    free(ssCreateInfos);</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;}</div>
 </div><!-- fragment -->
@@ -361,22 +361,22 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../de/d3d/structqvkshader__t.html">qvkshader_t</a> shader;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    VkShaderModuleCreateInfo smCreateInfo = {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        .sType = VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO,</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        .codeSize = shaderCodeSize,</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        .pCode = shaderSrc</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    };</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../df/d33/vk__local_8h.html#af7788fba4e836abe04d09794a3ee09b1">VK_VERIFY</a>(vkCreateShaderModule(<a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a8a0e0d26f9c6e56000c4b43ac8609ec3">logical</a>, &amp;smCreateInfo, <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, &amp;shader.<a class="code" href="../../de/d3d/structqvkshader__t.html#af1ac942e1f4fd02aba3df1c2d623e551">module</a>));</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../df/d33/vk__local_8h.html#af7788fba4e836abe04d09794a3ee09b1">VK_VERIFY</a>(vkCreateShaderModule(<a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a8a0e0d26f9c6e56000c4b43ac8609ec3">logical</a>, &amp;smCreateInfo, <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, &amp;shader.<a class="code" href="../../de/d3d/structqvkshader__t.html#af1ac942e1f4fd02aba3df1c2d623e551">module</a>));</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    VkPipelineShaderStageCreateInfo vssCreateInfo = {</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        .sType = VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO,</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        .stage = shaderStage,</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        .module = shader.<a class="code" href="../../de/d3d/structqvkshader__t.html#af1ac942e1f4fd02aba3df1c2d623e551">module</a>,</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        .pName = <span class="stringliteral">&quot;main&quot;</span>,</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        .pSpecializationInfo = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        .pSpecializationInfo = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    };</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    shader.<a class="code" href="../../de/d3d/structqvkshader__t.html#a84b11728e5de78ea53d5115f17cad905">createInfo</a> = vssCreateInfo;</div>
@@ -405,9 +405,9 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d2/d9d/vk__pipeline_8c_source.html#l00198">198</a> of file <a class="el" href="../../d2/d9d/vk__pipeline_8c_source.html">vk_pipeline.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;{</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordflow">if</span> (pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#ac032505b2b67353dfecc99018d62bf6f">layout</a> != VK_NULL_HANDLE)</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        vkDestroyPipelineLayout(<a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a8a0e0d26f9c6e56000c4b43ac8609ec3">logical</a>, pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#ac032505b2b67353dfecc99018d62bf6f">layout</a>, <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        vkDestroyPipelineLayout(<a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a8a0e0d26f9c6e56000c4b43ac8609ec3">logical</a>, pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#ac032505b2b67353dfecc99018d62bf6f">layout</a>, <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordflow">if</span> (pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#add1553c98fe25dc0898a6d91f9a45a43">pl</a> != VK_NULL_HANDLE)</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        vkDestroyPipeline(<a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a8a0e0d26f9c6e56000c4b43ac8609ec3">logical</a>, pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#add1553c98fe25dc0898a6d91f9a45a43">pl</a>, <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        vkDestroyPipeline(<a class="code" href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a>.<a class="code" href="../../d6/d4f/structqvkdevice__t.html#a8a0e0d26f9c6e56000c4b43ac8609ec3">logical</a>, pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#add1553c98fe25dc0898a6d91f9a45a43">pl</a>, <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#ac032505b2b67353dfecc99018d62bf6f">layout</a> = VK_NULL_HANDLE;</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    pipeline-&gt;<a class="code" href="../../de/d2f/structqvkpipeline__t.html#add1553c98fe25dc0898a6d91f9a45a43">pl</a> = VK_NULL_HANDLE;</div>
@@ -425,6 +425,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="astructqvkpipeline__t_html_ad71035924e4321d63cea9a9f6e71501f"><div class="ttname"><a href="../../de/d2f/structqvkpipeline__t.html#ad71035924e4321d63cea9a9f6e71501f">qvkpipeline_t::flags</a></div><div class="ttdeci">VkPipelineCreateFlags flags</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00156">qvk.h:156</a></div></div>
 <div class="ttc" id="astructqvkrenderpass__t_html_ae4b405226d4c3cef8550d2e0919a5ec4"><div class="ttname"><a href="../../d5/d04/structqvkrenderpass__t.html#ae4b405226d4c3cef8550d2e0919a5ec4">qvkrenderpass_t::rp</a></div><div class="ttdeci">VkRenderPass rp</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00118">qvk.h:118</a></div></div>
 <div class="ttc" id="astructqvkshader__t_html_a84b11728e5de78ea53d5115f17cad905"><div class="ttname"><a href="../../de/d3d/structqvkshader__t.html#a84b11728e5de78ea53d5115f17cad905">qvkshader_t::createInfo</a></div><div class="ttdeci">VkPipelineShaderStageCreateInfo createInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00168">qvk.h:168</a></div></div>
+<div class="ttc" id="aq__shared_8c_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d86/q__shared_8c_source.html#l00305">q_shared.c:305</a></div></div>
 <div class="ttc" id="astructqvkpipeline__t_html_add1553c98fe25dc0898a6d91f9a45a43"><div class="ttname"><a href="../../de/d2f/structqvkpipeline__t.html#add1553c98fe25dc0898a6d91f9a45a43">qvkpipeline_t::pl</a></div><div class="ttdeci">VkPipeline pl</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00155">qvk.h:155</a></div></div>
 <div class="ttc" id="astructqvkshader__t_html_af1ac942e1f4fd02aba3df1c2d623e551"><div class="ttname"><a href="../../de/d3d/structqvkshader__t.html#af1ac942e1f4fd02aba3df1c2d623e551">qvkshader_t::module</a></div><div class="ttdeci">VkShaderModule module</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00169">qvk.h:169</a></div></div>
 <div class="ttc" id="aqvk_8h_html_a3b0c7192bf3be674c0ca8f70fe72eb8f"><div class="ttname"><a href="../../de/d69/qvk_8h.html#a3b0c7192bf3be674c0ca8f70fe72eb8f">vk_device</a></div><div class="ttdeci">qvkdevice_t vk_device</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d39/vk__common_8c_source.html#l00051">vk_common.c:51</a></div></div>
@@ -432,24 +433,23 @@ Functions</h2></td></tr>
 <div class="ttc" id="astructqvkswapchain__t_html_a50f179b66f66c896fca041861dd1000a"><div class="ttname"><a href="../../dc/dbf/structqvkswapchain__t.html#a50f179b66f66c896fca041861dd1000a">qvkswapchain_t::extent</a></div><div class="ttdeci">VkExtent2D extent</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00057">qvk.h:57</a></div></div>
 <div class="ttc" id="astructviddef__t_html_a2ceb0caac72b47fe9af0f964579f275d"><div class="ttname"><a href="../../dc/d55/structviddef__t.html#a2ceb0caac72b47fe9af0f964579f275d">viddef_t::width</a></div><div class="ttdeci">unsigned width</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d0b/vid_8h_source.html#l00029">vid.h:29</a></div></div>
 <div class="ttc" id="astructqvkpipeline__t_html_aa0c1b19d8236e3ebb764b3156cf0509f"><div class="ttname"><a href="../../de/d2f/structqvkpipeline__t.html#aa0c1b19d8236e3ebb764b3156cf0509f">qvkpipeline_t::depthTestEnable</a></div><div class="ttdeci">VkBool32 depthTestEnable</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00161">qvk.h:161</a></div></div>
-<div class="ttc" id="actf_2q__shared_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ddc/ctf_2q__shared_8h_source.html#l00059">q_shared.h:59</a></div></div>
 <div class="ttc" id="astructqvkpipeline__t_html_a01b2bc363056d0edcad95a41199b944e"><div class="ttname"><a href="../../de/d2f/structqvkpipeline__t.html#a01b2bc363056d0edcad95a41199b944e">qvkpipeline_t::cullMode</a></div><div class="ttdeci">VkCullModeFlags cullMode</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00158">qvk.h:158</a></div></div>
 <div class="ttc" id="astructqvkpipeline__t_html_affaf3f66cdf09a392f07d538bc56fed7"><div class="ttname"><a href="../../de/d2f/structqvkpipeline__t.html#affaf3f66cdf09a392f07d538bc56fed7">qvkpipeline_t::blendOpts</a></div><div class="ttdeci">VkPipelineColorBlendAttachmentState blendOpts</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00160">qvk.h:160</a></div></div>
 <div class="ttc" id="aqvk_8h_html_a1e970d20c66d4dabcebad18780a23a79"><div class="ttname"><a href="../../de/d69/qvk_8h.html#a1e970d20c66d4dabcebad18780a23a79">vk_swapchain</a></div><div class="ttdeci">qvkswapchain_t vk_swapchain</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d39/vk__common_8c_source.html#l00063">vk_common.c:63</a></div></div>
 <div class="ttc" id="astructviddef__t_html_a95531184188d337df9d9aa779d2dfbb5"><div class="ttname"><a href="../../dc/d55/structviddef__t.html#a95531184188d337df9d9aa779d2dfbb5">viddef_t::height</a></div><div class="ttdeci">unsigned height</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d0b/vid_8h_source.html#l00029">vid.h:29</a></div></div>
-<div class="ttc" id="astructcvar__s_html_a924de486b6519c65a08d4872b4cd15f8"><div class="ttname"><a href="../../d8/d20/structcvar__s.html#a924de486b6519c65a08d4872b4cd15f8">cvar_s::value</a></div><div class="ttdeci">float value</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ddc/ctf_2q__shared_8h_source.html#l00323">q_shared.h:323</a></div></div>
+<div class="ttc" id="astructcvar__s_html_a924de486b6519c65a08d4872b4cd15f8"><div class="ttname"><a href="../../d8/d20/structcvar__s.html#a924de486b6519c65a08d4872b4cd15f8">cvar_s::value</a></div><div class="ttdeci">float value</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00331">q_shared.h:331</a></div></div>
 <div class="ttc" id="astructqvkdevice__t_html_a34046062c84b263a3380a1d661414d53"><div class="ttname"><a href="../../d6/d4f/structqvkdevice__t.html#a34046062c84b263a3380a1d661414d53">qvkdevice_t::features</a></div><div class="ttdeci">VkPhysicalDeviceFeatures features</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00042">qvk.h:42</a></div></div>
+<div class="ttc" id="aq__shared_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00067">q_shared.h:67</a></div></div>
 <div class="ttc" id="astructqvkpipeline__t_html_a23bc043eece29068837f067d0865d1c5"><div class="ttname"><a href="../../de/d2f/structqvkpipeline__t.html#a23bc043eece29068837f067d0865d1c5">qvkpipeline_t::depthWriteEnable</a></div><div class="ttdeci">VkBool32 depthWriteEnable</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00162">qvk.h:162</a></div></div>
 <div class="ttc" id="astructqvkpipeline__t_html_ac032505b2b67353dfecc99018d62bf6f"><div class="ttname"><a href="../../de/d2f/structqvkpipeline__t.html#ac032505b2b67353dfecc99018d62bf6f">qvkpipeline_t::layout</a></div><div class="ttdeci">VkPipelineLayout layout</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00154">qvk.h:154</a></div></div>
 <div class="ttc" id="avk__local_8h_html_af7788fba4e836abe04d09794a3ee09b1"><div class="ttname"><a href="../../df/d33/vk__local_8h.html#af7788fba4e836abe04d09794a3ee09b1">VK_VERIFY</a></div><div class="ttdeci">#define VK_VERIFY(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d33/vk__local_8h_source.html#l00059">vk_local.h:59</a></div></div>
 <div class="ttc" id="avid__menu_8c_html_a77ed3978d093aec71758739df86e6679"><div class="ttname"><a href="../../d2/dd2/vid__menu_8c.html#a77ed3978d093aec71758739df86e6679">vk_sampleshading</a></div><div class="ttdeci">static cvar_t * vk_sampleshading</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dd2/vid__menu_8c_source.html#l00045">vid_menu.c:45</a></div></div>
 <div class="ttc" id="astructqvkrenderpass__t_html_a22b3ab1c0b5f09a46ff435a4f497de17"><div class="ttname"><a href="../../d5/d04/structqvkrenderpass__t.html#a22b3ab1c0b5f09a46ff435a4f497de17">qvkrenderpass_t::sampleCount</a></div><div class="ttdeci">VkSampleCountFlagBits sampleCount</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00120">qvk.h:120</a></div></div>
-<div class="ttc" id="actf_2q__shared_8c_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de6/ctf_2q__shared_8c_source.html#l00305">q_shared.c:305</a></div></div>
 <div class="ttc" id="ar__local_8h_html_aa5f05f6f860c65da5834d6ff3d5655af"><div class="ttname"><a href="../../db/d08/r__local_8h.html#aa5f05f6f860c65da5834d6ff3d5655af">vid</a></div><div class="ttdeci">viddef_t vid</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d7a/r__main_8c_source.html#l00024">r_main.c:24</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_175ff204de3db36f06a5842625e7d027.html">ref_vk</a></li><li class="navelem"><a class="el" href="../../d2/d9d/vk__pipeline_8c.html">vk_pipeline.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_766b1a23d4917d6ebadb35b76b8738e1.html">ref_vk</a></li><li class="navelem"><a class="el" href="../../d2/d9d/vk__pipeline_8c.html">vk_pipeline.c</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

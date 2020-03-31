@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>vq2 doxygen: C:/entry/syn/github/vq2/ref_vk/vk_validation.c File Reference</title>
+<title>vkQuake2 doxygen: C:/entry/dev/vq2/src/ref_vk/vk_validation.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,8 +30,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">vq2 doxygen
-   &#160;<span id="projectnumber">1.0 alpha</span>
+   <div id="projectname">vkQuake2 doxygen
+   &#160;<span id="projectnumber">1.0 dev</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -298,7 +298,7 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    VkDebugUtilsMessengerCreateInfoEXT callbackInfo = {</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        .sType = VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT,</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        .messageSeverity =  VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT |</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                            VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT,</div>
@@ -306,7 +306,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                        VK_DEBUG_UTILS_MESSAGE_TYPE_VALIDATION_BIT_EXT |</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                        VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT,</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        .pfnUserCallback = <a class="code" href="../../da/d20/vk__validation_8c.html#afe6feaa8e23aae412563bcbddb0426d3">debugUtilsCallback</a>,</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        .pUserData = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        .pUserData = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    };</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../df/d33/vk__local_8h.html#af40c25ba4166ffcef7a3371e869676b7">vk_validation</a>-&gt;<a class="code" href="../../d8/d20/structcvar__s.html#a924de486b6519c65a08d4872b4cd15f8">value</a> &gt; 1 )</div>
@@ -315,7 +315,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                                        VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="../../df/d33/vk__local_8h.html#af7788fba4e836abe04d09794a3ee09b1">VK_VERIFY</a>(<a class="code" href="../../de/d69/qvk_8h.html#af607a329e4d19c539238f9f82f26f310">qvkCreateDebugUtilsMessengerEXT</a>(<a class="code" href="../../de/d69/qvk_8h.html#a2153e6995c1998a288b3f9ebe55f6bc8">vk_instance</a>, &amp;callbackInfo, <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, &amp;<a class="code" href="../../da/d20/vk__validation_8c.html#a7221eb9b79e2d100d91f818287012966">validationMessenger</a>));</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="../../df/d33/vk__local_8h.html#af7788fba4e836abe04d09794a3ee09b1">VK_VERIFY</a>(<a class="code" href="../../de/d69/qvk_8h.html#af607a329e4d19c539238f9f82f26f310">qvkCreateDebugUtilsMessengerEXT</a>(<a class="code" href="../../de/d69/qvk_8h.html#a2153e6995c1998a288b3f9ebe55f6bc8">vk_instance</a>, &amp;callbackInfo, <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, &amp;<a class="code" href="../../da/d20/vk__validation_8c.html#a7221eb9b79e2d100d91f818287012966">validationMessenger</a>));</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="../../db/d08/r__local_8h.html#ad8c9b460fd8a24127b3c7dfd78e9351e">ri</a>.<a class="code" href="../../dc/de1/structrefimport__t.html#a364fe63a8ca943e74cdcf6ee2d161865">Con_Printf</a>(<a class="code" href="../../d1/df7/qcommon_8h.html#abf7b20d1b06a23a0d5dfa1e66adc2dee">PRINT_ALL</a>, <span class="stringliteral">&quot;...Vulkan validation layers enabled\n&quot;</span>);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
 </div><!-- fragment -->
@@ -342,7 +342,7 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../da/d20/vk__validation_8c.html#a7221eb9b79e2d100d91f818287012966">validationMessenger</a> != VK_NULL_HANDLE )</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    {</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <a class="code" href="../../de/d69/qvk_8h.html#aea48fde11032ad3505d9593f1decccae">qvkDestroyDebugUtilsMessengerEXT</a>( <a class="code" href="../../de/d69/qvk_8h.html#a2153e6995c1998a288b3f9ebe55f6bc8">vk_instance</a>, <a class="code" href="../../da/d20/vk__validation_8c.html#a7221eb9b79e2d100d91f818287012966">validationMessenger</a>, <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> );</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <a class="code" href="../../de/d69/qvk_8h.html#aea48fde11032ad3505d9593f1decccae">qvkDestroyDebugUtilsMessengerEXT</a>( <a class="code" href="../../de/d69/qvk_8h.html#a2153e6995c1998a288b3f9ebe55f6bc8">vk_instance</a>, <a class="code" href="../../da/d20/vk__validation_8c.html#a7221eb9b79e2d100d91f818287012966">validationMessenger</a>, <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> );</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <a class="code" href="../../da/d20/vk__validation_8c.html#a7221eb9b79e2d100d91f818287012966">validationMessenger</a> = VK_NULL_HANDLE;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
@@ -410,17 +410,17 @@ Variables</h2></td></tr>
 <div class="ttc" id="acl__main_8c_html_afbca505984b1795cf67ce16dd8858a33"><div class="ttname"><a href="../../d3/d38/cl__main_8c.html#afbca505984b1795cf67ce16dd8858a33">msg</a></div><div class="ttdeci">cvar_t * msg</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d38/cl__main_8c_source.html#l00083">cl_main.c:83</a></div></div>
 <div class="ttc" id="astructrefimport__t_html_a364fe63a8ca943e74cdcf6ee2d161865"><div class="ttname"><a href="../../dc/de1/structrefimport__t.html#a364fe63a8ca943e74cdcf6ee2d161865">refimport_t::Con_Printf</a></div><div class="ttdeci">void(* Con_Printf)(int print_level, char *str,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d5f/ref_8h_source.html#l00202">ref.h:202</a></div></div>
 <div class="ttc" id="aqcommon_8h_html_abf7b20d1b06a23a0d5dfa1e66adc2dee"><div class="ttname"><a href="../../d1/df7/qcommon_8h.html#abf7b20d1b06a23a0d5dfa1e66adc2dee">PRINT_ALL</a></div><div class="ttdeci">#define PRINT_ALL</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/qcommon_8h_source.html#l00751">qcommon.h:751</a></div></div>
-<div class="ttc" id="actf_2q__shared_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ddc/ctf_2q__shared_8h_source.html#l00059">q_shared.h:59</a></div></div>
-<div class="ttc" id="astructcvar__s_html_a924de486b6519c65a08d4872b4cd15f8"><div class="ttname"><a href="../../d8/d20/structcvar__s.html#a924de486b6519c65a08d4872b4cd15f8">cvar_s::value</a></div><div class="ttdeci">float value</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ddc/ctf_2q__shared_8h_source.html#l00323">q_shared.h:323</a></div></div>
+<div class="ttc" id="astructcvar__s_html_a924de486b6519c65a08d4872b4cd15f8"><div class="ttname"><a href="../../d8/d20/structcvar__s.html#a924de486b6519c65a08d4872b4cd15f8">cvar_s::value</a></div><div class="ttdeci">float value</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00331">q_shared.h:331</a></div></div>
 <div class="ttc" id="avk__local_8h_html_af40c25ba4166ffcef7a3371e869676b7"><div class="ttname"><a href="../../df/d33/vk__local_8h.html#af40c25ba4166ffcef7a3371e869676b7">vk_validation</a></div><div class="ttdeci">cvar_t * vk_validation</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc8/vk__rmain_8c_source.html#l00090">vk_rmain.c:90</a></div></div>
 <div class="ttc" id="aqvk_8h_html_af607a329e4d19c539238f9f82f26f310"><div class="ttname"><a href="../../de/d69/qvk_8h.html#af607a329e4d19c539238f9f82f26f310">qvkCreateDebugUtilsMessengerEXT</a></div><div class="ttdeci">PFN_vkCreateDebugUtilsMessengerEXT qvkCreateDebugUtilsMessengerEXT</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d39/vk__common_8c_source.html#l00166">vk_common.c:166</a></div></div>
+<div class="ttc" id="aq__shared_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00067">q_shared.h:67</a></div></div>
 <div class="ttc" id="avk__local_8h_html_af7788fba4e836abe04d09794a3ee09b1"><div class="ttname"><a href="../../df/d33/vk__local_8h.html#af7788fba4e836abe04d09794a3ee09b1">VK_VERIFY</a></div><div class="ttdeci">#define VK_VERIFY(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d33/vk__local_8h_source.html#l00059">vk_local.h:59</a></div></div>
 <div class="ttc" id="avk__validation_8c_html_afe6feaa8e23aae412563bcbddb0426d3"><div class="ttname"><a href="../../da/d20/vk__validation_8c.html#afe6feaa8e23aae412563bcbddb0426d3">debugUtilsCallback</a></div><div class="ttdeci">static VKAPI_ATTR VkBool32 VKAPI_CALL debugUtilsCallback(VkDebugUtilsMessageSeverityFlagBitsEXT msgSeverity, VkDebugUtilsMessageTypeFlagsEXT msgType, const VkDebugUtilsMessengerCallbackDataEXT *callbackData, void *userData)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/vk__validation_8c_source.html#l00046">vk_validation.c:46</a></div></div>
 <div class="ttc" id="aqvk_8h_html_aea48fde11032ad3505d9593f1decccae"><div class="ttname"><a href="../../de/d69/qvk_8h.html#aea48fde11032ad3505d9593f1decccae">qvkDestroyDebugUtilsMessengerEXT</a></div><div class="ttdeci">PFN_vkDestroyDebugUtilsMessengerEXT qvkDestroyDebugUtilsMessengerEXT</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d39/vk__common_8c_source.html#l00167">vk_common.c:167</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_175ff204de3db36f06a5842625e7d027.html">ref_vk</a></li><li class="navelem"><a class="el" href="../../da/d20/vk__validation_8c.html">vk_validation.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_766b1a23d4917d6ebadb35b76b8738e1.html">ref_vk</a></li><li class="navelem"><a class="el" href="../../da/d20/vk__validation_8c.html">vk_validation.c</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

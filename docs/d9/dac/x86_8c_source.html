@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>vq2 doxygen: C:/entry/syn/github/vq2/client/x86.c Source File</title>
+<title>vkQuake2 doxygen: C:/entry/dev/vq2/src/client/x86.c Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,8 +30,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">vq2 doxygen
-   &#160;<span id="projectnumber">1.0 alpha</span>
+   <div id="projectname">vkQuake2 doxygen
+   &#160;<span id="projectnumber">1.0 dev</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -166,19 +166,19 @@ $(document).ready(function(){initNavTree('d9/dac/x86_8c_source.html','../../'); 
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keywordtype">void</span> x86_TimerInit( <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> smallest, <span class="keywordtype">unsigned</span> length )</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> biastable[100];</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../d7/d3a/qgl__win_8c.html#a0d6eadb218487dc89a29530a638a629b">range</a> = length;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    bias = 10000;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">for</span> ( <a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; 100; <a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>++ )</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">for</span> ( <a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; 100; <a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>++ )</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        x86_TimerStart();</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        biastable[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>] = x86_TimerStopBias();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        biastable[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>] = x86_TimerStopBias();</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">if</span> ( bias &gt; biastable[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>] )</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            bias = biastable[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>];</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">if</span> ( bias &gt; biastable[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>] )</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            bias = biastable[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>];</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    bias += smallest;</div>
@@ -193,14 +193,14 @@ $(document).ready(function(){initNavTree('d9/dac/x86_8c_source.html','../../'); 
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aq__shared_8c_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d86/q__shared_8c_source.html#l00305">q_shared.c:305</a></div></div>
 <div class="ttc" id="aqgl__win_8c_html_a0d6eadb218487dc89a29530a638a629b"><div class="ttname"><a href="../../d7/d3a/qgl__win_8c.html#a0d6eadb218487dc89a29530a638a629b">range</a></div><div class="ttdeci">GLsizei range</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3a/qgl__win_8c_source.html#l00121">qgl_win.c:121</a></div></div>
 <div class="ttc" id="acommon_8c_html_aa28b92ae618a391743656e3587332307"><div class="ttname"><a href="../../d8/d19/common_8c.html#aa28b92ae618a391743656e3587332307">Z_Malloc</a></div><div class="ttdeci">void * Z_Malloc(int size)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d19/common_8c_source.html#l01200">common.c:1200</a></div></div>
 <div class="ttc" id="aclient_8h_html"><div class="ttname"><a href="../../d8/de1/client_8h.html">client.h</a></div></div>
-<div class="ttc" id="actf_2q__shared_8c_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de6/ctf_2q__shared_8c_source.html#l00305">q_shared.c:305</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d9/dac/x86_8c.html">x86.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6908ff505388a07996d238c763adbdab.html">client</a></li><li class="navelem"><a class="el" href="../../d9/dac/x86_8c.html">x86.c</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

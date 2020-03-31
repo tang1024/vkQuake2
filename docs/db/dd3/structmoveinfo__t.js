@@ -8,7 +8,7 @@ var structmoveinfo__t =
     [ "distance", "db/dd3/structmoveinfo__t.html#addc0f9e773dc245556291d4da8c441ef", null ],
     [ "end_angles", "db/dd3/structmoveinfo__t.html#a04e8a3844b17941b7abc3d3a75a3f3f2", null ],
     [ "end_origin", "db/dd3/structmoveinfo__t.html#ad225e96f85b97b9277a1df398b849f87", null ],
-    [ "endfunc", "db/dd3/structmoveinfo__t.html#a3aa2fdddc6d97ec413b37c23b2020c3e", null ],
+    [ "endfunc", "db/dd3/structmoveinfo__t.html#a4773e900e01ab1767e42c740e8682609", null ],
     [ "move_speed", "db/dd3/structmoveinfo__t.html#a221833de9cc08fc598fb39e2cf381465", null ],
     [ "next_speed", "db/dd3/structmoveinfo__t.html#aac4bfbe1519cd4235b5c407bc05e1654", null ],
     [ "remaining_distance", "db/dd3/structmoveinfo__t.html#a82c7e5b9784ea066616a6085438a5702", null ],

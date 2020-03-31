@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>vq2 doxygen: C:/entry/syn/github/vq2/ref_vk/vk_buffer.c File Reference</title>
+<title>vkQuake2 doxygen: C:/entry/dev/vq2/src/ref_vk/vk_buffer.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,8 +30,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">vq2 doxygen
-   &#160;<span id="projectnumber">1.0 alpha</span>
+   <div id="projectname">vkQuake2 doxygen
+   &#160;<span id="projectnumber">1.0 dev</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -303,13 +303,13 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    VkBufferCreateInfo bcInfo = {</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        .sType = VK_STRUCTURE_TYPE_BUFFER_CREATE_INFO,</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        .pNext = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        .pNext = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        .flags = 0,</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        .size = size,</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        .usage = options.<a class="code" href="../../d4/d12/structqvkbufferopts__t.html#a8866b036ee200c242314ea9d917999ea">usage</a>,</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        .sharingMode = VK_SHARING_MODE_EXCLUSIVE,</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        .queueFamilyIndexCount = 0,</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        .pQueueFamilyIndices = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        .pQueueFamilyIndices = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    };</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="comment">// separate transfer queue makes sense only if the buffer is targetted for being transfered to GPU, so ignore it if it&#39;s CPU-only</span></div>
@@ -328,7 +328,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        .preferredFlags = options.<a class="code" href="../../d4/d12/structqvkbufferopts__t.html#ade5c15a8a160647946b9bbd7bae19c7f">prefMemFlags</a>,</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        .memoryTypeBits = 0,</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        .pool = VK_NULL_HANDLE,</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        .pUserData = <a class="code" href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        .pUserData = <a class="code" href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    };</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    dstBuffer-&gt;<a class="code" href="../../da/df0/structqvkbuffer__t.html#abda0d56be68cfe9959aadd56eeaaff92">currentOffset</a> = 0;</div>
@@ -632,11 +632,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="avk__mem__alloc_8h_html_ad9889c10c798b040d59c92f257cae597a3fc311d855c2ff53f1090ef5c722b38f"><div class="ttname"><a href="../../df/d75/vk__mem__alloc_8h.html#ad9889c10c798b040d59c92f257cae597a3fc311d855c2ff53f1090ef5c722b38f">VMA_ALLOCATION_CREATE_DEDICATED_MEMORY_BIT</a></div><div class="ttdeci">@ VMA_ALLOCATION_CREATE_DEDICATED_MEMORY_BIT</div><div class="ttdoc">Set this flag if the allocation should have its own memory block.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/vk__mem__alloc_8h_source.html#l02114">vk_mem_alloc.h:2114</a></div></div>
 <div class="ttc" id="avk__mem__alloc_8h_html_aa5846affa1e9da3800e3e78fae2305cca40bdf4cddeffeb12f43d45ca1286e0a5"><div class="ttname"><a href="../../df/d75/vk__mem__alloc_8h.html#aa5846affa1e9da3800e3e78fae2305cca40bdf4cddeffeb12f43d45ca1286e0a5">VMA_MEMORY_USAGE_CPU_ONLY</a></div><div class="ttdeci">@ VMA_MEMORY_USAGE_CPU_ONLY</div><div class="ttdoc">Memory will be mappable on host.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/vk__mem__alloc_8h_source.html#l02086">vk_mem_alloc.h:2086</a></div></div>
 <div class="ttc" id="astructqvkbufferopts__t_html"><div class="ttname"><a href="../../d4/d12/structqvkbufferopts__t.html">qvkbufferopts_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00142">qvk.h:142</a></div></div>
-<div class="ttc" id="actf_2q__shared_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../da/ddc/ctf_2q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ddc/ctf_2q__shared_8h_source.html#l00059">q_shared.h:59</a></div></div>
 <div class="ttc" id="astructqvkbuffer__t_html"><div class="ttname"><a href="../../da/df0/structqvkbuffer__t.html">qvkbuffer_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00124">qvk.h:124</a></div></div>
 <div class="ttc" id="avk__mem__alloc_8h_html_aa5846affa1e9da3800e3e78fae2305ccac6b5dc1432d88647aa4cd456246eadf7"><div class="ttname"><a href="../../df/d75/vk__mem__alloc_8h.html#aa5846affa1e9da3800e3e78fae2305ccac6b5dc1432d88647aa4cd456246eadf7">VMA_MEMORY_USAGE_GPU_ONLY</a></div><div class="ttdeci">@ VMA_MEMORY_USAGE_GPU_ONLY</div><div class="ttdoc">Memory will be used on device only, so fast access from the device is preferred.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/vk__mem__alloc_8h_source.html#l02076">vk_mem_alloc.h:2076</a></div></div>
 <div class="ttc" id="astructqvkbuffer__t_html_abda0d56be68cfe9959aadd56eeaaff92"><div class="ttname"><a href="../../da/df0/structqvkbuffer__t.html#abda0d56be68cfe9959aadd56eeaaff92">qvkbuffer_t::currentOffset</a></div><div class="ttdeci">VkDeviceSize currentOffset</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00129">qvk.h:129</a></div></div>
 <div class="ttc" id="aqvk_8h_html_a6aede1b640f6efe36bb9e77045067557"><div class="ttname"><a href="../../de/d69/qvk_8h.html#a6aede1b640f6efe36bb9e77045067557">QVk_SubmitCommand</a></div><div class="ttdeci">void QVk_SubmitCommand(const VkCommandBuffer *commandBuffer, const VkQueue *queue)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d97/vk__cmd_8c_source.html#l00035">vk_cmd.c:35</a></div></div>
+<div class="ttc" id="aq__shared_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../de/d01/q__shared_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00067">q_shared.h:67</a></div></div>
 <div class="ttc" id="astructqvkbuffer__t_html_afda69b6eb3f2315ac7c2561fcde7158a"><div class="ttname"><a href="../../da/df0/structqvkbuffer__t.html#afda69b6eb3f2315ac7c2561fcde7158a">qvkbuffer_t::allocation</a></div><div class="ttdeci">VmaAllocation allocation</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00127">qvk.h:127</a></div></div>
 <div class="ttc" id="aqvk_8h_html_a449fb81453192f824424d26c0a19f651"><div class="ttname"><a href="../../de/d69/qvk_8h.html#a449fb81453192f824424d26c0a19f651">QVk_BeginCommand</a></div><div class="ttdeci">VkResult QVk_BeginCommand(const VkCommandBuffer *commandBuffer)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d97/vk__cmd_8c_source.html#l00023">vk_cmd.c:23</a></div></div>
 <div class="ttc" id="astructqvkbuffer__t_html_a0ebc6c7f43065306dd7e6955e808049c"><div class="ttname"><a href="../../da/df0/structqvkbuffer__t.html#a0ebc6c7f43065306dd7e6955e808049c">qvkbuffer_t::allocInfo</a></div><div class="ttdeci">VmaAllocationInfo allocInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d69/qvk_8h_source.html#l00128">qvk.h:128</a></div></div>
@@ -660,7 +660,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_175ff204de3db36f06a5842625e7d027.html">ref_vk</a></li><li class="navelem"><a class="el" href="../../d3/d3d/vk__buffer_8c.html">vk_buffer.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_766b1a23d4917d6ebadb35b76b8738e1.html">ref_vk</a></li><li class="navelem"><a class="el" href="../../d3/d3d/vk__buffer_8c.html">vk_buffer.c</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

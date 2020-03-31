@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>vq2 doxygen: Defragmentation</title>
+<title>vkQuake2 doxygen: Defragmentation</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,8 +30,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">vq2 doxygen
-   &#160;<span id="projectnumber">1.0 alpha</span>
+   <div id="projectname">vkQuake2 doxygen
+   &#160;<span id="projectnumber">1.0 dev</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -137,23 +137,23 @@ Defragmenting CPU memory</h1>
 <div class="line"><a class="code" href="../../df/d75/vk__mem__alloc_8h.html#a36ba776fd7fd5cb1e9359fdc0d8e6e8a">vmaDefragmentationBegin</a>(allocator, &amp;defragInfo, <span class="keyword">nullptr</span>, &amp;defragCtx);</div>
 <div class="line"><a class="code" href="../../df/d75/vk__mem__alloc_8h.html#a8774e20e91e245aae959ba63efa15dd2">vmaDefragmentationEnd</a>(allocator, defragCtx);</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordflow">for</span>(uint32_t <a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; allocCount; ++<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div>
+<div class="line"><span class="keywordflow">for</span>(uint32_t <a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; allocCount; ++<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div>
 <div class="line">{</div>
-<div class="line">    <span class="keywordflow">if</span>(allocationsChanged[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>])</div>
+<div class="line">    <span class="keywordflow">if</span>(allocationsChanged[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>])</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// Destroy buffer that is immutably bound to memory region which is no longer valid.</span></div>
-<div class="line">        vkDestroyBuffer(<a class="code" href="../../d6/dc2/snd__miniaudio_8c.html#a4ac579929d0e161cea62dd35d913e13d">device</a>, buffers[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], <span class="keyword">nullptr</span>);</div>
+<div class="line">        vkDestroyBuffer(<a class="code" href="../../d6/dc2/snd__miniaudio_8c.html#a4ac579929d0e161cea62dd35d913e13d">device</a>, buffers[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], <span class="keyword">nullptr</span>);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Create new buffer with same parameters.</span></div>
 <div class="line">        VkBufferCreateInfo bufferInfo = ...;</div>
-<div class="line">        vkCreateBuffer(<a class="code" href="../../d6/dc2/snd__miniaudio_8c.html#a4ac579929d0e161cea62dd35d913e13d">device</a>, &amp;bufferInfo, <span class="keyword">nullptr</span>, &amp;buffers[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
+<div class="line">        vkCreateBuffer(<a class="code" href="../../d6/dc2/snd__miniaudio_8c.html#a4ac579929d0e161cea62dd35d913e13d">device</a>, &amp;bufferInfo, <span class="keyword">nullptr</span>, &amp;buffers[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
 <div class="line">            </div>
 <div class="line">        <span class="comment">// You can make dummy call to vkGetBufferMemoryRequirements here to silence validation layer warning.</span></div>
 <div class="line">            </div>
 <div class="line">        <span class="comment">// Bind new buffer to new memory region. Data contained in it is already moved.</span></div>
 <div class="line">        <a class="code" href="../../d4/d25/struct_vma_allocation_info.html">VmaAllocationInfo</a> allocInfo;</div>
-<div class="line">        <a class="code" href="../../df/d75/vk__mem__alloc_8h.html#a86dd08aba8633bfa4ad0df2e76481d8b">vmaGetAllocationInfo</a>(allocator, allocations[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], &amp;allocInfo);</div>
-<div class="line">        <a class="code" href="../../df/d75/vk__mem__alloc_8h.html#a6b0929b914b60cf2d45cac4bf3547470">vmaBindBufferMemory</a>(allocator, allocations[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], buffers[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
+<div class="line">        <a class="code" href="../../df/d75/vk__mem__alloc_8h.html#a86dd08aba8633bfa4ad0df2e76481d8b">vmaGetAllocationInfo</a>(allocator, allocations[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], &amp;allocInfo);</div>
+<div class="line">        <a class="code" href="../../df/d75/vk__mem__alloc_8h.html#a6b0929b914b60cf2d45cac4bf3547470">vmaBindBufferMemory</a>(allocator, allocations[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], buffers[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>Setting <a class="el" href="../../d4/dff/struct_vma_defragmentation_info2.html#a76d51a644dc7f5405d0cdd0025ecd0cc" title="Optional, output.">VmaDefragmentationInfo2::pAllocationsChanged</a> is optional. This output array tells whether particular allocation in <a class="el" href="../../d4/dff/struct_vma_defragmentation_info2.html#a8943f8d65969ce8e2189a1cdf3205e96" title="Pointer to array of allocations that can be defragmented.">VmaDefragmentationInfo2::pAllocations</a> at the same index has been modified during defragmentation. You can pass null, but you then need to query every allocation passed to defragmentation for new parameters using <a class="el" href="../../df/d75/vk__mem__alloc_8h.html#a86dd08aba8633bfa4ad0df2e76481d8b" title="Returns current information about specified allocation and atomically marks it as used in current fra...">vmaGetAllocationInfo()</a> if you might need to recreate and rebind a buffer or image associated with it.</p>
@@ -198,23 +198,23 @@ Defragmenting GPU memory</h1>
 <div class="line"> </div>
 <div class="line"><a class="code" href="../../df/d75/vk__mem__alloc_8h.html#a8774e20e91e245aae959ba63efa15dd2">vmaDefragmentationEnd</a>(allocator, defragCtx);</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordflow">for</span>(uint32_t <a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; allocCount; ++<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div>
+<div class="line"><span class="keywordflow">for</span>(uint32_t <a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; allocCount; ++<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div>
 <div class="line">{</div>
-<div class="line">    <span class="keywordflow">if</span>(allocationsChanged[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>])</div>
+<div class="line">    <span class="keywordflow">if</span>(allocationsChanged[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>])</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// Destroy buffer that is immutably bound to memory region which is no longer valid.</span></div>
-<div class="line">        vkDestroyBuffer(<a class="code" href="../../d6/dc2/snd__miniaudio_8c.html#a4ac579929d0e161cea62dd35d913e13d">device</a>, buffers[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], <span class="keyword">nullptr</span>);</div>
+<div class="line">        vkDestroyBuffer(<a class="code" href="../../d6/dc2/snd__miniaudio_8c.html#a4ac579929d0e161cea62dd35d913e13d">device</a>, buffers[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], <span class="keyword">nullptr</span>);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Create new buffer with same parameters.</span></div>
 <div class="line">        VkBufferCreateInfo bufferInfo = ...;</div>
-<div class="line">        vkCreateBuffer(<a class="code" href="../../d6/dc2/snd__miniaudio_8c.html#a4ac579929d0e161cea62dd35d913e13d">device</a>, &amp;bufferInfo, <span class="keyword">nullptr</span>, &amp;buffers[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
+<div class="line">        vkCreateBuffer(<a class="code" href="../../d6/dc2/snd__miniaudio_8c.html#a4ac579929d0e161cea62dd35d913e13d">device</a>, &amp;bufferInfo, <span class="keyword">nullptr</span>, &amp;buffers[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
 <div class="line">            </div>
 <div class="line">        <span class="comment">// You can make dummy call to vkGetBufferMemoryRequirements here to silence validation layer warning.</span></div>
 <div class="line">            </div>
 <div class="line">        <span class="comment">// Bind new buffer to new memory region. Data contained in it is already moved.</span></div>
 <div class="line">        <a class="code" href="../../d4/d25/struct_vma_allocation_info.html">VmaAllocationInfo</a> allocInfo;</div>
-<div class="line">        <a class="code" href="../../df/d75/vk__mem__alloc_8h.html#a86dd08aba8633bfa4ad0df2e76481d8b">vmaGetAllocationInfo</a>(allocator, allocations[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], &amp;allocInfo);</div>
-<div class="line">        <a class="code" href="../../df/d75/vk__mem__alloc_8h.html#a6b0929b914b60cf2d45cac4bf3547470">vmaBindBufferMemory</a>(allocator, allocations[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], buffers[<a class="code" href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
+<div class="line">        <a class="code" href="../../df/d75/vk__mem__alloc_8h.html#a86dd08aba8633bfa4ad0df2e76481d8b">vmaGetAllocationInfo</a>(allocator, allocations[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], &amp;allocInfo);</div>
+<div class="line">        <a class="code" href="../../df/d75/vk__mem__alloc_8h.html#a6b0929b914b60cf2d45cac4bf3547470">vmaBindBufferMemory</a>(allocator, allocations[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], buffers[<a class="code" href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>You can combine these two methods by specifying non-zero <code>maxGpu*</code> as well as <code>maxCpu*</code> parameters. The library automatically chooses best method to defragment each memory pool.</p>
@@ -243,6 +243,7 @@ Writing custom defragmentation algorithm</h1>
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <div class="ttc" id="astruct_vma_defragmentation_info2_html_a3cf86ab32c1da779b4923d301a3056ba"><div class="ttname"><a href="../../d4/dff/struct_vma_defragmentation_info2.html#a3cf86ab32c1da779b4923d301a3056ba">VmaDefragmentationInfo2::allocationCount</a></div><div class="ttdeci">uint32_t allocationCount</div><div class="ttdoc">Number of allocations in pAllocations array.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/vk__mem__alloc_8h_source.html#l02867">vk_mem_alloc.h:2867</a></div></div>
+<div class="ttc" id="aq__shared_8c_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d3/d86/q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d86/q__shared_8c_source.html#l00305">q_shared.c:305</a></div></div>
 <div class="ttc" id="asnd__miniaudio_8c_html_a4ac579929d0e161cea62dd35d913e13d"><div class="ttname"><a href="../../d6/dc2/snd__miniaudio_8c.html#a4ac579929d0e161cea62dd35d913e13d">device</a></div><div class="ttdeci">static ma_device device</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc2/snd__miniaudio_8c_source.html#l00047">snd_miniaudio.c:47</a></div></div>
 <div class="ttc" id="astruct_vma_allocator_html"><div class="ttname"><a href="../../d8/d39/struct_vma_allocator.html">VmaAllocator</a></div><div class="ttdoc">Represents main object of this library initialized.</div></div>
 <div class="ttc" id="avk__mem__alloc_8h_html_a86dd08aba8633bfa4ad0df2e76481d8b"><div class="ttname"><a href="../../df/d75/vk__mem__alloc_8h.html#a86dd08aba8633bfa4ad0df2e76481d8b">vmaGetAllocationInfo</a></div><div class="ttdeci">void vmaGetAllocationInfo(VmaAllocator allocator, VmaAllocation allocation, VmaAllocationInfo *pAllocationInfo)</div><div class="ttdoc">Returns current information about specified allocation and atomically marks it as used in current fra...</div></div>
@@ -255,7 +256,6 @@ Writing custom defragmentation algorithm</h1>
 <div class="ttc" id="astruct_vma_defragmentation_info2_html_af78e1ea40c22d85137b65f6b384a4d0a"><div class="ttname"><a href="../../d4/dff/struct_vma_defragmentation_info2.html#af78e1ea40c22d85137b65f6b384a4d0a">VmaDefragmentationInfo2::maxCpuBytesToMove</a></div><div class="ttdeci">VkDeviceSize maxCpuBytesToMove</div><div class="ttdoc">Maximum total numbers of bytes that can be copied while moving allocations to different places using ...</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/vk__mem__alloc_8h_source.html#l02906">vk_mem_alloc.h:2906</a></div></div>
 <div class="ttc" id="avk__mem__alloc_8h_html_a36ba776fd7fd5cb1e9359fdc0d8e6e8a"><div class="ttname"><a href="../../df/d75/vk__mem__alloc_8h.html#a36ba776fd7fd5cb1e9359fdc0d8e6e8a">vmaDefragmentationBegin</a></div><div class="ttdeci">VkResult vmaDefragmentationBegin(VmaAllocator allocator, const VmaDefragmentationInfo2 *pInfo, VmaDefragmentationStats *pStats, VmaDefragmentationContext *pContext)</div><div class="ttdoc">Begins defragmentation process.</div></div>
 <div class="ttc" id="astruct_vma_defragmentation_info2_html_a76d51a644dc7f5405d0cdd0025ecd0cc"><div class="ttname"><a href="../../d4/dff/struct_vma_defragmentation_info2.html#a76d51a644dc7f5405d0cdd0025ecd0cc">VmaDefragmentationInfo2::pAllocationsChanged</a></div><div class="ttdeci">VkBool32 * pAllocationsChanged</div><div class="ttdoc">Optional, output.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/vk__mem__alloc_8h_source.html#l02882">vk_mem_alloc.h:2882</a></div></div>
-<div class="ttc" id="actf_2q__shared_8c_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../db/de6/ctf_2q__shared_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de6/ctf_2q__shared_8c_source.html#l00305">q_shared.c:305</a></div></div>
 <div class="ttc" id="astruct_vma_allocation_info_html"><div class="ttname"><a href="../../d4/d25/struct_vma_allocation_info.html">VmaAllocationInfo</a></div><div class="ttdoc">Parameters of VmaAllocation objects, that can be retrieved using function vmaGetAllocationInfo().</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/vk__mem__alloc_8h_source.html#l02531">vk_mem_alloc.h:2531</a></div></div>
 <div class="ttc" id="astruct_vma_defragmentation_context_html"><div class="ttname"><a href="../../d2/dbb/struct_vma_defragmentation_context.html">VmaDefragmentationContext</a></div><div class="ttdoc">Represents Opaque object that represents started defragmentation process.</div></div>
 <div class="ttc" id="astruct_vma_defragmentation_info2_html_a8943f8d65969ce8e2189a1cdf3205e96"><div class="ttname"><a href="../../d4/dff/struct_vma_defragmentation_info2.html#a8943f8d65969ce8e2189a1cdf3205e96">VmaDefragmentationInfo2::pAllocations</a></div><div class="ttdeci">VmaAllocation * pAllocations</div><div class="ttdoc">Pointer to array of allocations that can be defragmented.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/vk__mem__alloc_8h_source.html#l02876">vk_mem_alloc.h:2876</a></div></div>

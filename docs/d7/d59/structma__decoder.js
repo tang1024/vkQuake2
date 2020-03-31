@@ -7,7 +7,7 @@ var structma__decoder =
     [ "internalChannels", "d7/d59/structma__decoder.html#a07cee2126f985e9327dd89c1e875c397", null ],
     [ "internalFormat", "d7/d59/structma__decoder.html#a5466df02457a80e3b953d0cb513d37b2", null ],
     [ "internalSampleRate", "d7/d59/structma__decoder.html#aa60216630d76d02900cacb9f2032ec03", null ],
-    [ "memory", "d7/d59/structma__decoder.html#ab308f88c15bdc63879fd1f664cb02a8b", null ],
+    [ "memory", "d7/d59/structma__decoder.html#a3fbf877857d955129f4496257755071f", null ],
     [ "onGetLengthInPCMFrames", "d7/d59/structma__decoder.html#a434c381c2f896b8319955f683f1b88f9", null ],
     [ "onRead", "d7/d59/structma__decoder.html#ad14a7f9e20dfd46e238f96d51d46f18f", null ],
     [ "onSeek", "d7/d59/structma__decoder.html#ae6cd5588325e161775a5456ff66cf302", null ],

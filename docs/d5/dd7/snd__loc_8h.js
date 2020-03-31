@@ -20,7 +20,7 @@ var snd__loc_8h =
     [ "S_Spatialize", "d5/dd7/snd__loc_8h.html#af3578f1d1d46ef9ffccdc04a13b50133", null ],
     [ "SNDDMA_BeginPainting", "d5/dd7/snd__loc_8h.html#aaa072a603c2c81c7836973b32bed2bed", null ],
     [ "SNDDMA_GetDMAPos", "d5/dd7/snd__loc_8h.html#ae602e7c332c8f008cec5957cb60712e7", null ],
-    [ "SNDDMA_Init", "d5/dd7/snd__loc_8h.html#a34d340ea48d55d0eb40f9fcb8ade9cb1", null ],
+    [ "SNDDMA_Init", "d5/dd7/snd__loc_8h.html#ae6aa1f3ef00bd487b7c7707d65202f43", null ],
     [ "SNDDMA_Shutdown", "d5/dd7/snd__loc_8h.html#a4f615970a847f2b631216968c8a421d5", null ],
     [ "SNDDMA_Submit", "d5/dd7/snd__loc_8h.html#ac330b309a3b8afed27beb4ffc6bbf5a6", null ],
     [ "channels", "d5/dd7/snd__loc_8h.html#abe3072592fe03008aef976c1be5e8d50", null ],

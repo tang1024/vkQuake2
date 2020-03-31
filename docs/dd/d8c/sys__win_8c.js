@@ -26,7 +26,7 @@ var sys__win_8c =
     [ "Sys_UnloadGame", "dd/d8c/sys__win_8c.html#ac657219b7fc4490cfd3423f8ca975379", null ],
     [ "WinError", "dd/d8c/sys__win_8c.html#a497d970b75c1280138380f42800fb370", null ],
     [ "WinMain", "dd/d8c/sys__win_8c.html#a661c2abc03926acfaeb93b4ae7db4943", null ],
-    [ "ActiveApp", "dd/d8c/sys__win_8c.html#ae1efcae962b2976abfa083abdab026b0", null ],
+    [ "ActiveApp", "dd/d8c/sys__win_8c.html#ad40e0728d46a5e30bd00c6bcbf029702", null ],
     [ "argc", "dd/d8c/sys__win_8c.html#ad1447518f4372828b8435ae82e48499e", null ],
     [ "argv", "dd/d8c/sys__win_8c.html#aa968a7dad1d12f5313777bc44aa7a04b", null ],
     [ "console_text", "dd/d8c/sys__win_8c.html#a6340996b2ccc3c7cc4244999e433596a", null ],
