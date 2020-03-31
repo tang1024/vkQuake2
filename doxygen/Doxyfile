@@ -924,18 +924,7 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which doxygen is
 # run.
 
-EXCLUDE                = ../code/AL \
-                         ../code/asm \
-                         ../code/curl-7.54.0 \
-                         ../code/jpeg-8c \
-                         ../code/libogg-1.3.3 \
-                         ../code/libs \
-                         ../code/libvorbis-1.3.6 \
-                         ../code/opus-1.2.1 \
-                         ../code/opusfile-0.9 \
-                         ../code/renderergl1 \
-                         ../code/SDL2 \
-                         ../code/tools
+EXCLUDE                =
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
